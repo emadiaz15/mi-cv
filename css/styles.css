@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body{ font-family:"Roboto Mono"; 
+  background-image: url("/img/shattered.png");
+  background-color: #21008c
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+#portada {
+  background-image: url("/img/header.jpg");
+  background-size: cover;
+}
+#portada img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+#portada p {
+  font-size: 25pt;
+  color: white;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.img-circle {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+header h1 {
+  font-size: 15pt;
+  color: white;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+#content h1{
+  font-size: 18pt;
+  color:white;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+#content{
+  width: 75%;
+  float: left;
+  margin: 0;
+  font-size: 18px;
+}
+#content-description{
+  padding: 2px 2px 0px 2px;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  color:white;
+}
+.sidebar{
+  width: 20%;
+  float: left;
+}
+#sidebar-menu{
+  margin: 5px 0 0 5px;
+  width:300x;
+  height:300px;
+  color: white;
+  font-size: 18px;
+  }
+ul{ 
+  list-style: none; 
+  text-align:left; 
+}
+ul li {
+  margin: 10px 0 10px 0;
+  color: white;
+}
+li a {
+  padding:5px;
+  text-decoration:none;
+  background-color:white;
+  border-radius: 32px 32px 32px 32px;
+}
+li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+a:focus { outline: 2px dotted; }
+a:hover, a:active { background-color: #CC3399;
+  box-shadow: 20px -4px 50px 5px #74014e;}
+
+#contact img {
+  height: 70px;
+  width: 70px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#contact a {
+  text-decoration: none;
+}
+#contact h1 {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+#contact img:hover {
+  opacity: 0.8;
+}
+#contact {
+  text-align: center;
+  width: 100%;
+}
+
+footer{
+  float: left;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
