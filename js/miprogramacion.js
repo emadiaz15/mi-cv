@@ -1,27 +1,46 @@
 $(document).ready(function() {
-    $("#conte").click(function(){
-        $("#centro").load("conte.html");
+    $("#personales").click(function(){
+        $("#content-description").load("personales.html");
     });
     
-    $("#servicios").click(function(){
-        $("#centro").load("servicios.html");
+    $("#intereses").click(function(){
+        $("#content-description").load("intereses.html");
     });
     
     $("#contactos").click(function(){
-        $("#centro").load("contactos.html");
+        $("#content-description").load("contacto.html");
     });
     
-    $("#centro").load("conte.html");
+    $("#redes").click(function(){
+        $("#content-description").load("redes.html");
+    });
 
-    $("#mostrar").click(function(){
-        $('#target').show("slow");
+    $("#curso").click(function(){
+        $("#content-description").load("curso.html");
+    });
+
+    $("#educacion").click(function(){
+        $("#content-description").load("educacion.html");
+    });
+
+    $("#idioma").click(function(){
+        $("#content-description").load("idiomas.html");
+    });
+
+    $("#sobremi").click(function(){
+        $("#content-description").load("sobremi.html");
+    });
+
+    $("#referencia").click(function(){
+        $("#content-description").load("referencias.html");
+    });
+
+    $("#experienciaprof").click(function(){
+        $("#content-description").load("experienciaprofesional.html");
+    });
+
+    $("habilidades").click(function(){
+        $("#content-description").load("habilidades.html");
     });
     
-    $("#ocultar").click(function(){
-        $('#target').hide("fast");
-    });
-     
-    $("#toggle").click(function(){
-        $('#target').toggle("slow");
-    });
 });
